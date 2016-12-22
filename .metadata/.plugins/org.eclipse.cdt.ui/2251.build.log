@@ -1,0 +1,13 @@
+19:15:55 **** Incremental Build of configuration Debug for project 2251 ****
+make all 
+Building file: ../src/2251.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2251.d" -MT"src/2251.o" -o "src/2251.o" "../src/2251.cpp"
+../src/2251.cpp:22:17: error: expected '(' for function-style cast or type construction
+    qu.push(Nums{0,0,limit[2]});
+            ~~~~^
+1 error generated.
+make: *** [src/2251.o] Error 1
+
+19:15:55 Build Finished (took 450ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract n + m - i" description="Extract Local Variable Refactoring" fileName="file:/Users/kimkunwoo/Documents/C++Algorithm_Eclipse/11049/src/11049.cpp" flags="4" id="org.eclipse.cdt.internal.ui.refactoring.extractlocalvariable.ExtractLocalVariableRefactoring" name="index" selection="1231,9" stamp="1481034271116"/>
+</session>

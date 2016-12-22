@@ -1,0 +1,16 @@
+19:16:06 **** Incremental Build of configuration Debug for project PracticeRecur1 ****
+make all 
+Building file: ../src/PracticeRecur1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PracticeRecur1.d" -MT"src/PracticeRecur1.o" -o "src/PracticeRecur1.o" "../src/PracticeRecur1.cpp"
+../src/PracticeRecur1.cpp:47:4: error: no matching function for call to 'findResult'
+                        findResult(i, 1);
+                        ^~~~~~~~~~
+../src/PracticeRecur1.cpp:22:6: note: candidate function not viable: requires 3 arguments, but 2 were provided
+void findResult(int index, int cnt, string ss){
+     ^
+1 error generated.
+make: *** [src/PracticeRecur1.o] Error 1
+
+19:16:06 Build Finished (took 451ms)
+

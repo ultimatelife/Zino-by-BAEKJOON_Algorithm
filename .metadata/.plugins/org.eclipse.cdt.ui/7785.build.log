@@ -1,0 +1,55 @@
+19:16:01 **** Incremental Build of configuration Debug for project 7785 ****
+make all 
+Building file: ../src/7785.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/7785.d" -MT"src/7785.o" -o "src/7785.o" "../src/7785.cpp"
+../src/7785.cpp:36:9: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for(auto s : arr)
+        ^
+../src/7785.cpp:36:16: warning: range-based for loop is a C++11 extension [-Wc++11-extensions]
+    for(auto s : arr)
+               ^
+In file included from ../src/7785.cpp:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/set:389:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tree:1553:17: error: type 'value_compare' (aka 'std::__1::basic_string<char>') does not provide a call operator
+            if (value_comp()(__v, __nd->__value_))
+                ^~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tree:1851:36: note: in instantiation of function template specialization 'std::__1::__tree<std::__1::basic_string<char>, std::__1::basic_string<char>, std::__1::allocator<std::__1::basic_string<char> > >::__find_equal<std::__1::basic_string<char> >' requested here
+    __node_base_pointer& __child = __find_equal(__parent, __v);
+                                   ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/set:599:25: note: in instantiation of member function 'std::__1::__tree<std::__1::basic_string<char>, std::__1::basic_string<char>, std::__1::allocator<std::__1::basic_string<char> > >::__insert_unique' requested here
+        {return __tree_.__insert_unique(__v);}
+                        ^
+../src/7785.cpp:20:15: note: in instantiation of member function 'std::__1::set<std::__1::basic_string<char>, std::__1::basic_string<char>, std::__1::allocator<std::__1::basic_string<char> > >::insert' requested here
+            s.insert(name);
+              ^
+In file included from ../src/7785.cpp:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/set:389:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tree:2013:26: error: type 'value_compare' (aka 'std::__1::basic_string<char>') does not provide a call operator
+    if (__p != end() && !value_comp()(__v, *__p))
+                         ^~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/set:651:68: note: in instantiation of function template specialization 'std::__1::__tree<std::__1::basic_string<char>, std::__1::basic_string<char>, std::__1::allocator<std::__1::basic_string<char> > >::find<std::__1::basic_string<char> >' requested here
+    iterator find(const key_type& __k)             {return __tree_.find(__k);}
+                                                                   ^
+../src/7785.cpp:22:23: note: in instantiation of member function 'std::__1::set<std::__1::basic_string<char>, std::__1::basic_string<char>, std::__1::allocator<std::__1::basic_string<char> > >::find' requested here
+            s.erase(s.find(name));
+                      ^
+In file included from ../src/7785.cpp:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/set:389:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tree:2085:14: error: type 'value_compare' (aka 'std::__1::basic_string<char>') does not provide a call operator
+        if (!value_comp()(__root->__value_, __v))
+             ^~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tree:2012:20: note: in instantiation of function template specialization 'std::__1::__tree<std::__1::basic_string<char>, std::__1::basic_string<char>, std::__1::allocator<std::__1::basic_string<char> > >::__lower_bound<std::__1::basic_string<char> >' requested here
+    iterator __p = __lower_bound(__v, __root(), __end_node());
+                   ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/set:651:68: note: in instantiation of function template specialization 'std::__1::__tree<std::__1::basic_string<char>, std::__1::basic_string<char>, std::__1::allocator<std::__1::basic_string<char> > >::find<std::__1::basic_string<char> >' requested here
+    iterator find(const key_type& __k)             {return __tree_.find(__k);}
+                                                                   ^
+../src/7785.cpp:22:23: note: in instantiation of member function 'std::__1::set<std::__1::basic_string<char>, std::__1::basic_string<char>, std::__1::allocator<std::__1::basic_string<char> > >::find' requested here
+            s.erase(s.find(name));
+                      ^
+2 warnings and 3 errors generated.
+make: *** [src/7785.o] Error 1
+
+19:16:01 Build Finished (took 448ms)
+

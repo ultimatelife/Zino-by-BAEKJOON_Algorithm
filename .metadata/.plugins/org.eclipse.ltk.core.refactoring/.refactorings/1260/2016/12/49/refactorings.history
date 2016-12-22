@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract edge[temp][i]" description="Extract Local Variable Refactoring" fileName="file:/Users/kimkunwoo/Documents/C++Algorithm_Eclipse/1260/src/1260.cpp" flags="4" id="org.eclipse.cdt.internal.ui.refactoring.extractlocalvariable.ExtractLocalVariableRefactoring" name="currentNode" selection="1008,14" stamp="1480700136790"/>
+</session>

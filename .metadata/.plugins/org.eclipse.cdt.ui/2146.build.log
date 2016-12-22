@@ -1,0 +1,18 @@
+19:15:53 **** Incremental Build of configuration Debug for project 2146 ****
+make all 
+Building file: ../src/2146.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2146.d" -MT"src/2146.o" -o "src/2146.o" "../src/2146.cpp"
+../src/2146.cpp:16:20: error: a space is required between consecutive right angle brackets (use '> >')
+queue<pair<int, int>> qu;
+                   ^~
+                   > >
+../src/2146.cpp:17:20: error: a space is required between consecutive right angle brackets (use '> >')
+queue<pair<int, int>> rqu;
+                   ^~
+                   > >
+2 errors generated.
+make: *** [src/2146.o] Error 1
+
+19:15:53 Build Finished (took 444ms)
+

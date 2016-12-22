@@ -1,0 +1,23 @@
+19:15:44 **** Incremental Build of configuration Debug for project 1260 ****
+make all 
+Building file: ../src/1260.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/1260.d" -MT"src/1260.o" -o "src/1260.o" "../src/1260.cpp"
+../src/1260.cpp:20:18: error: a space is required between consecutive right angle brackets (use '> >')
+vector<vector<int>> edge;
+                 ^~
+                 > >
+../src/1260.cpp:52:14: error: '__vector_base' is not a class, namespace, or enumeration
+                        std::__1::__vector_base::value_type currentNode = edge[temp][i];
+                                  ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:328:7: note: '__vector_base' declared here
+class __vector_base
+      ^
+../src/1260.cpp:55:18: error: called object type 'bool [1001]' is not a function or function pointer
+                        checkQu(edge[temp][i]);
+                        ~~~~~~~^
+3 errors generated.
+make: *** [src/1260.o] Error 1
+
+19:15:45 Build Finished (took 502ms)
+

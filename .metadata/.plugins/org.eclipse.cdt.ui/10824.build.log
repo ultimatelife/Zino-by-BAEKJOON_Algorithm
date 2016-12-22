@@ -1,0 +1,28 @@
+19:15:40 **** Incremental Build of configuration Debug for project 10824 ****
+make all 
+Building file: ../src/10824.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/10824.d" -MT"src/10824.o" -o "src/10824.o" "../src/10824.cpp"
+../src/10824.cpp:4:36: error: redefinition of parameter 's1'
+string* moreLong(string s1, string s1){
+                                   ^
+../src/10824.cpp:4:25: note: previous declaration is here
+string* moreLong(string s1, string s1){
+                        ^
+../src/10824.cpp:6:9: error: expected unqualified-id
+        if(s1. >= s2.length){
+               ^
+../src/10824.cpp:6:12: error: use of undeclared identifier 's2'
+        if(s1. >= s2.length){
+                  ^
+../src/10824.cpp:7:10: warning: address of stack memory associated with local variable 's' returned [-Wreturn-stack-address]
+                return s;
+                       ^
+../src/10824.cpp:9:9: warning: address of stack memory associated with local variable 's' returned [-Wreturn-stack-address]
+        return s;
+               ^
+2 warnings and 3 errors generated.
+make: *** [src/10824.o] Error 1
+
+19:15:40 Build Finished (took 444ms)
+

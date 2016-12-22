@@ -1,0 +1,38 @@
+//============================================================================
+// Name        : Ctest.cpp
+// Author      : Kunwoo
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <algorithm>
+#include <vector>
+using namespace std;
+
+int len = 0;
+vector<int> arr;
+int qNum = 0;
+vector<pair<int, int>> qList;
+
+int check[1000000][1000000] = {{0,}};
+
+int main() {
+	cin >> len;
+	for(int i = 0 ; i < len ; i++){
+		int temp;	cin >> temp;
+		arr.push_back(temp);
+	}
+
+	cin >> qNum;
+	for(int k = 0 ; k < qNum ; k++){
+		int x,y;	cin >> x >> y;
+
+
+	}
+
+	return 0;
+}
+
+

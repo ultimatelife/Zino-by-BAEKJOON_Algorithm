@@ -1,0 +1,30 @@
+19:15:45 **** Incremental Build of configuration Debug for project 1298 ****
+make all 
+Building file: ../src/1298.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/1298.d" -MT"src/1298.o" -o "src/1298.o" "../src/1298.cpp"
+../src/1298.cpp:19:35: error: a space is required between consecutive right angle brackets (use '> >')
+vector<priority_queue<pair<int,int>>> arr;
+                                  ^~
+                                  > > 
+../src/1298.cpp:24:46: error: expected '>'
+                arr.push_back(priority_queue<pair<int, int>);
+                                                           ^
+../src/1298.cpp:30:9: error: expected ';' after expression
+                arr.at
+                      ^
+                      ;
+../src/1298.cpp:30:7: error: reference to non-static member function must be called
+                arr.at
+                ~~~~^~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:654:21: note: possible target for call
+    reference       at(size_type __n);
+                    ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:655:21: note: possible target for call
+    const_reference at(size_type __n) const;
+                    ^
+4 errors generated.
+make: *** [src/1298.o] Error 1
+
+19:15:46 Build Finished (took 391ms)
+

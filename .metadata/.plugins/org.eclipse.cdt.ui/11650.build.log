@@ -1,0 +1,13 @@
+19:15:43 **** Incremental Build of configuration Debug for project 11650 ****
+make all 
+Building file: ../src/11650.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/11650.d" -MT"src/11650.o" -o "src/11650.o" "../src/11650.cpp"
+../src/11650.cpp:43:68: error: expected '(' for function-style cast or type construction
+        printf("%d %d\n", arr[i].first, arr[i].second, greater<int>);
+                                                       ~~~~~~~~~~~~^
+1 error generated.
+make: *** [src/11650.o] Error 1
+
+19:15:43 Build Finished (took 447ms)
+
