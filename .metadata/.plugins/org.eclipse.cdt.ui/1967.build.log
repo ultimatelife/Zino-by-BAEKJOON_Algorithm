@@ -1,4 +1,4 @@
-19:15:51 **** Incremental Build of configuration Debug for project 1967 ****
+12:25:46 **** Build of configuration Debug for project 1967 ****
 make all 
 Building file: ../src/1967.cpp
 Invoking: GCC C++ Compiler
@@ -9,5 +9,5 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/1967.d" -MT"src/1967.o"
 1 error generated.
 make: *** [src/1967.o] Error 1
 
-19:15:51 Build Finished (took 396ms)
+12:25:47 Build Finished (took 446ms)
 

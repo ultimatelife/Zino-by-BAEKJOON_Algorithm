@@ -1,4 +1,4 @@
-19:15:57 **** Incremental Build of configuration Debug for project 2580 ****
+12:25:50 **** Build of configuration Debug for project 2580 ****
 make all 
 Building file: ../src/2580.cpp
 Invoking: GCC C++ Compiler
@@ -12,5 +12,5 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2580.d" -MT"src/2580.o"
 2 errors generated.
 make: *** [src/2580.o] Error 1
 
-19:15:57 Build Finished (took 441ms)
+12:25:51 Build Finished (took 446ms)
 

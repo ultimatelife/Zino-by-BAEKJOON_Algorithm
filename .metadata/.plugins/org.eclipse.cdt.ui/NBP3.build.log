@@ -1,0 +1,19 @@
+12:25:56 **** Build of configuration Debug for project NBP3 ****
+make all 
+Building file: ../src/NBP3.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NBP3.d" -MT"src/NBP3.o" -o "src/NBP3.o" "../src/NBP3.cpp"
+../src/NBP3.cpp:54:13: warning: range-based for loop is a C++11 extension [-Wc++11-extensions]
+        for (int i : arr)
+                   ^
+1 warning generated.
+Finished building: ../src/NBP3.cpp
+ 
+Building target: NBP3
+Invoking: MacOS X C++ Linker
+g++  -o "NBP3"  ./src/NBP3.o   
+Finished building target: NBP3
+ 
+
+12:25:57 Build Finished (took 583ms)
+

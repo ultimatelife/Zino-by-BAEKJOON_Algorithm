@@ -1,6 +1,6 @@
-19:16:03 **** Incremental Build of configuration Debug for project DevidePell ****
+12:25:55 **** Build of configuration Debug for project DevidePell ****
 make all 
 make: Nothing to be done for `all'.
 
-19:16:03 Build Finished (took 81ms)
+12:25:55 Build Finished (took 69ms)
 

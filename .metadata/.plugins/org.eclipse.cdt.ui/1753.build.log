@@ -1,0 +1,18 @@
+12:25:45 **** Build of configuration Debug for project 1753 ****
+make all 
+Building file: ../src/1753.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/1753.d" -MT"src/1753.o" -o "src/1753.o" "../src/1753.cpp"
+../src/1753.cpp:9:21: error: a space is required between consecutive right angle brackets (use '> >')
+vector<pair<int, int>> edge[20001];
+                    ^~
+                    > >
+../src/1753.cpp:10:29: error: a space is required between consecutive right angle brackets (use '> >')
+priority_queue<pair<int, int>> qu;
+                            ^~
+                            > >
+2 errors generated.
+make: *** [src/1753.o] Error 1
+
+12:25:45 Build Finished (took 398ms)
+

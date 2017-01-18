@@ -1,4 +1,4 @@
-19:15:44 **** Incremental Build of configuration Debug for project 1260 ****
+12:25:41 **** Build of configuration Debug for project 1260 ****
 make all 
 Building file: ../src/1260.cpp
 Invoking: GCC C++ Compiler
@@ -19,5 +19,5 @@ class __vector_base
 3 errors generated.
 make: *** [src/1260.o] Error 1
 
-19:15:45 Build Finished (took 502ms)
+12:25:42 Build Finished (took 553ms)
 

@@ -1,6 +1,6 @@
-19:16:03 **** Incremental Build of configuration Debug for project Nexon2 ****
+12:25:57 **** Build of configuration Debug for project Nexon2 ****
 make all 
 make: Nothing to be done for `all'.
 
-19:16:03 Build Finished (took 80ms)
+12:25:57 Build Finished (took 73ms)
 

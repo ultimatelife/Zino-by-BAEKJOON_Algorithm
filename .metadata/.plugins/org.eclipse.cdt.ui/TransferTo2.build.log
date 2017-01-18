@@ -1,6 +1,26 @@
-19:16:06 **** Incremental Build of configuration Debug for project TransferTo2 ****
+12:25:58 **** Build of configuration Debug for project TransferTo2 ****
 make all 
-make: Nothing to be done for `all'.
+Building file: ../src/TransferTo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TransferTo2.d" -MT"src/TransferTo2.o" -o "src/TransferTo2.o" "../src/TransferTo2.cpp"
+../src/TransferTo2.cpp:65:25: error: a space is required between consecutive right angle brackets (use '> >')
+    vector<pair<int, int>> land;
+                        ^~
+                        > >
+../src/TransferTo2.cpp:75:13: warning: range-based for loop is a C++11 extension [-Wc++11-extensions]
+    for(P x : land){
+            ^
+../src/TransferTo2.cpp:90:80: warning: comparison between NULL and non-pointer ('P' (aka 'pair<int, int>') and NULL) [-Wnull-arithmetic]
+                if (arr[next_row][next_col] == 0 && check2[next_row][next_col] == NULL) {
+                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~
+../src/TransferTo2.cpp:90:80: error: invalid operands to binary expression ('P' (aka 'pair<int, int>') and 'long')
+                if (arr[next_row][next_col] == 0 && check2[next_row][next_col] == NULL) {
+                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~
+../src/TransferTo2.cpp:92:21: error: use of undeclared identifier 'qu'
+                    qu.push(make_pair(next_row, next_col));
+                    ^
+2 warnings and 3 errors generated.
+make: *** [src/TransferTo2.o] Error 1
 
-19:16:06 Build Finished (took 81ms)
+12:25:59 Build Finished (took 494ms)
 

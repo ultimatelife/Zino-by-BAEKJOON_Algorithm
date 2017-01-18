@@ -1,4 +1,4 @@
-19:15:43 **** Incremental Build of configuration Debug for project 11650 ****
+12:25:40 **** Build of configuration Debug for project 11650 ****
 make all 
 Building file: ../src/11650.cpp
 Invoking: GCC C++ Compiler
@@ -9,5 +9,5 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/11650.d" -MT"src/11650.
 1 error generated.
 make: *** [src/11650.o] Error 1
 
-19:15:43 Build Finished (took 447ms)
+12:25:41 Build Finished (took 496ms)
 

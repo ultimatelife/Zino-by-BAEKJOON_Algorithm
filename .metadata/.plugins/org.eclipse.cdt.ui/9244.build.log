@@ -1,0 +1,25 @@
+12:25:54 **** Build of configuration Debug for project 9244 ****
+make all 
+Building file: ../src/9244.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/9244.d" -MT"src/9244.o" -o "src/9244.o" "../src/9244.cpp"
+../src/9244.cpp:23:16: error: member function 'getDistance' not viable: 'this' argument has type 'const Info', but function is not marked const
+        return getDistance(x1, y1, x2, y2) > getDistance(in.x1, in.y1, in.x2, in.y2);
+               ^~~~~~~~~~~
+../src/9244.cpp:26:17: note: 'getDistance' declared here
+    const float getDistance(float x1, float y1, float x2, float y2){
+                ^
+../src/9244.cpp:23:46: error: member function 'getDistance' not viable: 'this' argument has type 'const Info', but function is not marked const
+        return getDistance(x1, y1, x2, y2) > getDistance(in.x1, in.y1, in.x2, in.y2);
+                                             ^~~~~~~~~~~
+../src/9244.cpp:26:17: note: 'getDistance' declared here
+    const float getDistance(float x1, float y1, float x2, float y2){
+                ^
+../src/9244.cpp:40:13: error: use of undeclared identifier 'result'
+    cout << result << endl;
+            ^
+3 errors generated.
+make: *** [src/9244.o] Error 1
+
+12:25:55 Build Finished (took 667ms)
+

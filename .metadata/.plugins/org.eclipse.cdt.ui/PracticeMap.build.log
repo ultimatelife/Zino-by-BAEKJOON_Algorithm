@@ -1,6 +1,6 @@
-19:16:05 **** Incremental Build of configuration Debug for project PracticeMap ****
+12:25:58 **** Build of configuration Debug for project PracticeMap ****
 make all 
 make: Nothing to be done for `all'.
 
-19:16:05 Build Finished (took 78ms)
+12:25:58 Build Finished (took 89ms)
 

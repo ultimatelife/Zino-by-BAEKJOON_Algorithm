@@ -1,0 +1,15 @@
+12:25:52 **** Build of configuration Debug for project 4963 ****
+make all 
+Building file: ../src/4963.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4963.d" -MT"src/4963.o" -o "src/4963.o" "../src/4963.cpp"
+Finished building: ../src/4963.cpp
+ 
+Building target: 4963
+Invoking: MacOS X C++ Linker
+g++  -o "4963"  ./src/4963.o   
+Finished building target: 4963
+ 
+
+12:25:53 Build Finished (took 559ms)
+

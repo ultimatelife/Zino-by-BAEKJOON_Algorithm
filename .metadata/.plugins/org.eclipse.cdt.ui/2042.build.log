@@ -1,0 +1,34 @@
+13:03:28 **** Incremental Build of configuration Debug for project 2042 ****
+make all 
+Building file: ../src/2042.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2042.d" -MT"src/2042.o" -o "src/2042.o" "../src/2042.cpp"
+../src/2042.cpp:52:17: warning: format specifies type 'int' but the argument has type 'value_type' (aka 'long long') [-Wformat]
+                printf("%d ", tree[i]);
+                        ~~    ^~~~~~~
+                        %lld
+../src/2042.cpp:67:35: warning: format specifies type 'int' but the argument has type 'long long' [-Wformat]
+            printf("diff : %d\n", diff);
+                           ~~     ^~~~
+                           %lld
+../src/2042.cpp:77:18: warning: format specifies type 'int' but the argument has type 'value_type' (aka 'long long') [-Wformat]
+                        printf("%d ", tree[i]);
+                                ~~    ^~~~~~~
+                                %lld
+../src/2042.cpp:57:11: warning: unused variable 't2' [-Wunused-variable]
+                int t1, t2, t3;
+                        ^
+../src/2042.cpp:57:15: warning: unused variable 't3' [-Wunused-variable]
+                int t1, t2, t3;
+                            ^
+5 warnings generated.
+Finished building: ../src/2042.cpp
+ 
+Building target: 2042
+Invoking: MacOS X C++ Linker
+g++  -o "2042"  ./src/2042.o   
+Finished building target: 2042
+ 
+
+13:03:28 Build Finished (took 392ms)
+

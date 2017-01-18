@@ -2164,3 +2164,314 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.core.net 1 0 2016-12-21 17:43:25.100
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2016-12-22 23:23:20.404 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-22 23:23:25.638
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2016-12-24 04:25:02.713 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-24 04:25:09.705
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-12-24 04:25:33.648
+!MESSAGE Indexed 'QuickSort' (1 sources, 0 headers) in 0.133 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)
+!SESSION 2016-12-25 17:59:28.583 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-12-25 17:59:32.644
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-12-25 18:00:18.589
+!MESSAGE Indexed 'NBP2' (1 sources, 179 headers) in 8.66 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+
+!ENTRY org.eclipse.debug.ui 4 120 2016-12-26 00:01:41.296
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException
+	at org.eclipse.debug.internal.core.StreamsProxy.write(StreamsProxy.java:132)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:741)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2016-12-26 00:02:06.167 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-26 00:02:10.956
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2016-12-26 01:32:25.222 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-26 01:32:30.623
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-12-26 01:33:11.540
+!MESSAGE Indexed 'NBP3' (2 sources, 183 headers) in 17 sec: 25,605 declarations; 52,240 references; 0 unresolved inclusions; 11 syntax errors; 772 unresolved names (0.98%)
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-12-26 01:33:56.872
+!MESSAGE Cannot work with multiple declarators
+!SESSION 2017-01-04 14:25:05.906 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-01-04 14:25:11.662
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2017-01-04 17:39:43.792 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-01-04 17:39:48.499
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-04 17:40:33.845
+!MESSAGE Indexed '5427' (1 sources, 179 headers) in 8.74 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+!SESSION 2017-01-07 19:23:14.274 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-01-07 19:23:19.795
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-07 19:24:36.795
+!MESSAGE Indexed 'Dijke' (1 sources, 179 headers) in 8.96 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2017-01-07 19:24:50.627
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/kimkunwoo/Documents/C++Algorithm_Eclipse/Dijke/Debug/Dijke not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:681)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:266)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2017-01-07 19:24:50.629
+!MESSAGE /Users/kimkunwoo/Documents/C++Algorithm_Eclipse/Dijke/Debug/Dijke not found
+!STACK 0
+java.io.FileNotFoundException: /Users/kimkunwoo/Documents/C++Algorithm_Eclipse/Dijke/Debug/Dijke not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:681)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:266)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-08 01:34:31.280
+!MESSAGE Indexed '1011' (2 sources, 181 headers) in 12.2 sec: 24,199 declarations; 47,893 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-08 01:36:20.655
+!MESSAGE Indexed 'BellmanFord' (1 sources, 0 headers) in 0.006 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)
+!SESSION 2017-01-08 16:19:35.661 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-01-08 16:19:41.935
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-08 16:20:32.761
+!MESSAGE Indexed '9244' (2 sources, 185 headers) in 11.9 sec: 27,458 declarations; 57,108 references; 0 unresolved inclusions; 11 syntax errors; 776 unresolved names (0.91%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-08 16:20:49.959
+!MESSAGE Indexed '1076' (2 sources, 179 headers) in 6.04 sec: 22,816 declarations; 46,327 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+!SESSION 2017-01-10 18:22:34.144 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-01-10 18:22:38.835
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-10 18:23:32.883
+!MESSAGE Indexed '1504' (1 sources, 183 headers) in 10.6 sec: 26,078 declarations; 55,626 references; 0 unresolved inclusions; 11 syntax errors; 772 unresolved names (0.94%)
+!SESSION 2017-01-10 21:12:10.098 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-01-10 21:12:14.772
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui.workbench 4 2 2017-01-10 21:12:36.730
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1089)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:840)
+	at org.eclipse.swt.widgets.Display.create(Display.java:823)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:129)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:722)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:713)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1419)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.performStartup(SetupUIPlugin.java:196)
+	at org.eclipse.oomph.setup.ui.EarlyStartup.earlyStartup(EarlyStartup.java:22)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:77)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:53)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2829)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-01-10 21:12:36.733
+!MESSAGE An internal error occurred during: "Workbench early startup".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.runtime.InternalPlatform.getLog(InternalPlatform.java:349)
+	at org.eclipse.core.runtime.Plugin.getLog(Plugin.java:267)
+	at org.eclipse.ui.internal.WorkbenchPlugin.log(WorkbenchPlugin.java:773)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.handleException(EarlyStartupRunnable.java:69)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:75)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2829)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2017-01-11 00:09:41.014 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-01-11 00:09:46.222
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.ui 4 2 2017-01-11 00:10:21.202
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.cdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException: 
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:47)
+	at org.eclipse.jface.text.rules.RuleBasedScanner.checkRange(RuleBasedScanner.java:118)
+	at org.eclipse.jface.text.rules.RuleBasedScanner.setRange(RuleBasedScanner.java:90)
+	at org.eclipse.jface.text.rules.BufferedRuleBasedScanner.setRange(BufferedRuleBasedScanner.java:96)
+	at org.eclipse.cdt.internal.ui.text.spelling.CSpellingEngine.check(CSpellingEngine.java:133)
+	at org.eclipse.cdt.internal.ui.text.spelling.SpellingEngine.check(SpellingEngine.java:73)
+	at org.eclipse.cdt.internal.ui.text.spelling.CSpellingService$1.run(CSpellingService.java:58)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.cdt.internal.ui.text.spelling.CSpellingService.check(CSpellingService.java:64)
+	at org.eclipse.ui.texteditor.spelling.SpellingReconcileStrategy.reconcile(SpellingReconcileStrategy.java:186)
+	at org.eclipse.cdt.internal.ui.text.spelling.CSpellingReconcileStrategy.reconcile(CSpellingReconcileStrategy.java:121)
+	at org.eclipse.ui.texteditor.spelling.SpellingReconcileStrategy.initialReconcile(SpellingReconcileStrategy.java:161)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:117)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:95)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:338)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:174)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-11 00:10:36.068
+!MESSAGE Indexed 'MergeSort' (1 sources, 179 headers) in 15.2 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-11 00:42:15.364
+!MESSAGE Indexed 'SelectionSort' (1 sources, 179 headers) in 6.64 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+!SESSION 2017-01-11 19:03:38.883 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-01-11 19:03:43.795
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2017-01-12 17:03:49.613 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-01-12 17:03:54.501
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-12 19:14:26.628
+!MESSAGE Indexed '1753' (1 sources, 179 headers) in 8.6 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-12 21:50:00.623
+!MESSAGE Indexed '4963' (1 sources, 179 headers) in 4.56 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-13 02:10:03.865
+!MESSAGE Indexed '2042' (1 sources, 179 headers) in 12.3 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+!SESSION 2017-01-13 03:24:47.229 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-01-13 03:24:57.285
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2017-01-13 12:25:02.936 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-01-13 12:25:07.894
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2017-01-13 18:08:25.410 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/kimkunwoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-01-13 18:08:30.006
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

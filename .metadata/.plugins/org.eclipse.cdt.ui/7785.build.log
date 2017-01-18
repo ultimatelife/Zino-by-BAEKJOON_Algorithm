@@ -1,4 +1,4 @@
-19:16:01 **** Incremental Build of configuration Debug for project 7785 ****
+12:25:53 **** Build of configuration Debug for project 7785 ****
 make all 
 Building file: ../src/7785.cpp
 Invoking: GCC C++ Compiler
@@ -51,5 +51,5 @@ In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/Xcod
 2 warnings and 3 errors generated.
 make: *** [src/7785.o] Error 1
 
-19:16:01 Build Finished (took 448ms)
+12:25:54 Build Finished (took 449ms)
 

@@ -1,0 +1,26 @@
+12:25:55 **** Build of configuration Debug for project BellmanFord ****
+make all 
+Building target: BellmanFord
+Invoking: MacOS X C++ Linker
+g++  -o "BellmanFord"  ./src/BellmanFord.o   
+final section layout:
+    __TEXT/__text addr=0x100001310, size=0x00001ACB, fileOffset=0x00001310, type=1
+    __TEXT/__stubs addr=0x100002DDC, size=0x00000042, fileOffset=0x00002DDC, type=28
+    __TEXT/__stub_helper addr=0x100002E20, size=0x0000006A, fileOffset=0x00002E20, type=32
+    __TEXT/__gcc_except_tab addr=0x100002E8C, size=0x00000080, fileOffset=0x00002E8C, type=0
+    __TEXT/__cstring addr=0x100002F0C, size=0x0000000E, fileOffset=0x00002F0C, type=13
+    __TEXT/__unwind_info addr=0x100002F1C, size=0x00000084, fileOffset=0x00002F1C, type=22
+    __TEXT/__eh_frame addr=0x100002FA0, size=0x00000058, fileOffset=0x00002FA0, type=19
+    __DATA/__got addr=0x100003000, size=0x00000008, fileOffset=0x00003000, type=29
+    __DATA/__nl_symbol_ptr addr=0x100003008, size=0x00000010, fileOffset=0x00003008, type=29
+    __DATA/__la_symbol_ptr addr=0x100003018, size=0x00000058, fileOffset=0x00003018, type=27
+    __DATA/__mod_init_func addr=0x100003070, size=0x00000008, fileOffset=0x00003070, type=33
+    __DATA/__data addr=0x100003078, size=0x00000004, fileOffset=0x00003078, type=0
+    __DATA/__common addr=0x100003080, size=0x00000010, fileOffset=0x00000000, type=25
+    __DATA/__huge addr=0x100003090, size=0x4A81F69234, fileOffset=0x00000000, type=25
+ld: 32-bit RIP relative reference out of range (160006406928 max is +/-4GB): from __Z8findNodeii (0x100001340) to _cost (0x26412018C0) in '__Z8findNodeii' from ./src/BellmanFord.o for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [BellmanFord] Error 1
+
+12:25:55 Build Finished (took 123ms)
+

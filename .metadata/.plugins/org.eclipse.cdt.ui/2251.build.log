@@ -1,4 +1,4 @@
-19:15:55 **** Incremental Build of configuration Debug for project 2251 ****
+12:25:49 **** Build of configuration Debug for project 2251 ****
 make all 
 Building file: ../src/2251.cpp
 Invoking: GCC C++ Compiler
@@ -9,5 +9,5 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2251.d" -MT"src/2251.o"
 1 error generated.
 make: *** [src/2251.o] Error 1
 
-19:15:55 Build Finished (took 450ms)
+12:25:49 Build Finished (took 445ms)
 
