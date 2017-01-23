@@ -1,4 +1,4 @@
-12:25:43 **** Build of configuration Debug for project 1504 ****
+20:12:22 **** Build of configuration Debug for project 1504 ****
 make all 
 Building file: ../src/1504.cpp
 Invoking: GCC C++ Compiler
@@ -14,5 +14,5 @@ vector<pair<ll, ll>> edge[801];
 2 errors generated.
 make: *** [src/1504.o] Error 1
 
-12:25:44 Build Finished (took 440ms)
+20:12:23 Build Finished (took 463ms)
 

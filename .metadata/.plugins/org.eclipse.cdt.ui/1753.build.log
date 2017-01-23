@@ -1,4 +1,4 @@
-12:25:45 **** Build of configuration Debug for project 1753 ****
+20:12:24 **** Build of configuration Debug for project 1753 ****
 make all 
 Building file: ../src/1753.cpp
 Invoking: GCC C++ Compiler
@@ -14,5 +14,5 @@ priority_queue<pair<int, int>> qu;
 2 errors generated.
 make: *** [src/1753.o] Error 1
 
-12:25:45 Build Finished (took 398ms)
+20:12:24 Build Finished (took 482ms)
 

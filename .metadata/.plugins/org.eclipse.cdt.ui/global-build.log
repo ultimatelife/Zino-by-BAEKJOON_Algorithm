@@ -46421,3 +46421,664 @@ Invoking: MacOS X C++ Linker
 g++  -o "2042"  ./src/2042.o   
 Finished building target: 2042
  
+00:39:38 **** Build of configuration Debug for project 2294 ****
+make all 
+make: Nothing to be done for `all'.
+00:53:58 **** Incremental Build of configuration Debug for project 2294 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:09 **** Build of configuration Debug for project 1011 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:15 **** Build of configuration Debug for project 1037 ****
+make all 
+Building target: 1037
+Invoking: MacOS X C++ Linker
+g++  -o "1037"  ./src/1037.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [1037] Error 1
+20:12:17 **** Build of configuration Debug for project 1076 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:17 **** Build of configuration Debug for project 10799 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:17 **** Build of configuration Debug for project 10819 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:17 **** Build of configuration Debug for project 10824 ****
+make all 
+Building file: ../src/10824.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/10824.d" -MT"src/10824.o" -o "src/10824.o" "../src/10824.cpp"
+../src/10824.cpp:4:36: error: redefinition of parameter 's1'
+string* moreLong(string s1, string s1){
+                                   ^
+../src/10824.cpp:4:25: note: previous declaration is here
+string* moreLong(string s1, string s1){
+                        ^
+../src/10824.cpp:6:9: error: expected unqualified-id
+        if(s1. >= s2.length){
+               ^
+../src/10824.cpp:6:12: error: use of undeclared identifier 's2'
+        if(s1. >= s2.length){
+                  ^
+../src/10824.cpp:7:10: warning: address of stack memory associated with local variable 's' returned [-Wreturn-stack-address]
+                return s;
+                       ^
+../src/10824.cpp:9:9: warning: address of stack memory associated with local variable 's' returned [-Wreturn-stack-address]
+        return s;
+               ^
+2 warnings and 3 errors generated.
+make: *** [src/10824.o] Error 1
+20:12:18 **** Build of configuration Debug for project 10942 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:18 **** Build of configuration Debug for project 10971 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:18 **** Build of configuration Debug for project 11005 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:19 **** Build of configuration Debug for project 11049 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:19 **** Build of configuration Debug for project 11060 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:19 **** Build of configuration Debug for project 1107 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:19 **** Build of configuration Debug for project 111656 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:19 **** Build of configuration Debug for project 11444 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:19 **** Build of configuration Debug for project 11504 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:19 **** Build of configuration Debug for project 1158 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:19 **** Build of configuration Debug for project 11650 ****
+make all 
+Building file: ../src/11650.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/11650.d" -MT"src/11650.o" -o "src/11650.o" "../src/11650.cpp"
+../src/11650.cpp:43:68: error: expected '(' for function-style cast or type construction
+        printf("%d %d\n", arr[i].first, arr[i].second, greater<int>);
+                                                       ~~~~~~~~~~~~^
+1 error generated.
+make: *** [src/11650.o] Error 1
+20:12:20 **** Build of configuration Debug for project 11655 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:20 **** Build of configuration Debug for project 11724 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:20 **** Build of configuration Debug for project 11727 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:20 **** Build of configuration Debug for project 1182 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:20 **** Build of configuration Debug for project 1212 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:21 **** Build of configuration Debug for project 1260 ****
+make all 
+Building file: ../src/1260.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/1260.d" -MT"src/1260.o" -o "src/1260.o" "../src/1260.cpp"
+../src/1260.cpp:20:18: error: a space is required between consecutive right angle brackets (use '> >')
+vector<vector<int>> edge;
+                 ^~
+                 > >
+../src/1260.cpp:52:14: error: '__vector_base' is not a class, namespace, or enumeration
+                        std::__1::__vector_base::value_type currentNode = edge[temp][i];
+                                  ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:328:7: note: '__vector_base' declared here
+class __vector_base
+      ^
+../src/1260.cpp:55:18: error: called object type 'bool [1001]' is not a function or function pointer
+                        checkQu(edge[temp][i]);
+                        ~~~~~~~^
+3 errors generated.
+make: *** [src/1260.o] Error 1
+20:12:21 **** Build of configuration Debug for project 1261 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:21 **** Build of configuration Debug for project 1298 ****
+make all 
+Building file: ../src/1298.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/1298.d" -MT"src/1298.o" -o "src/1298.o" "../src/1298.cpp"
+../src/1298.cpp:19:35: error: a space is required between consecutive right angle brackets (use '> >')
+vector<priority_queue<pair<int,int>>> arr;
+                                  ^~
+                                  > > 
+../src/1298.cpp:24:46: error: expected '>'
+                arr.push_back(priority_queue<pair<int, int>);
+                                                           ^
+../src/1298.cpp:30:9: error: expected ';' after expression
+                arr.at
+                      ^
+                      ;
+../src/1298.cpp:30:7: error: reference to non-static member function must be called
+                arr.at
+                ~~~~^~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:654:21: note: possible target for call
+    reference       at(size_type __n);
+                    ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:655:21: note: possible target for call
+    const_reference at(size_type __n) const;
+                    ^
+4 errors generated.
+make: *** [src/1298.o] Error 1
+20:12:22 **** Build of configuration Debug for project 1373 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:22 **** Build of configuration Debug for project 1406 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:22 **** Build of configuration Debug for project 1451 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:22 **** Build of configuration Debug for project 1463 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:22 **** Build of configuration Debug for project 1476 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:22 **** Build of configuration Debug for project 1504 ****
+make all 
+Building file: ../src/1504.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/1504.d" -MT"src/1504.o" -o "src/1504.o" "../src/1504.cpp"
+../src/1504.cpp:10:19: error: a space is required between consecutive right angle brackets (use '> >')
+vector<pair<ll, ll>> edge[801];
+                  ^~
+                  > >
+../src/1504.cpp:13:31: error: a space is required between consecutive right angle brackets (use '> >')
+    priority_queue<pair<ll, ll>> qu;
+                              ^~
+                              > >
+2 errors generated.
+make: *** [src/1504.o] Error 1
+20:12:23 **** Build of configuration Debug for project 1509 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:23 **** Build of configuration Debug for project 1520 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:23 **** Build of configuration Debug for project 1525 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:23 **** Build of configuration Debug for project 1676 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:23 **** Build of configuration Debug for project 1697 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:23 **** Build of configuration Debug for project 1699 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:24 **** Build of configuration Debug for project 1707 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:24 **** Build of configuration Debug for project 1717 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:24 **** Build of configuration Debug for project 1744 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:24 **** Build of configuration Debug for project 1753 ****
+make all 
+Building file: ../src/1753.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/1753.d" -MT"src/1753.o" -o "src/1753.o" "../src/1753.cpp"
+../src/1753.cpp:9:21: error: a space is required between consecutive right angle brackets (use '> >')
+vector<pair<int, int>> edge[20001];
+                    ^~
+                    > >
+../src/1753.cpp:10:29: error: a space is required between consecutive right angle brackets (use '> >')
+priority_queue<pair<int, int>> qu;
+                            ^~
+                            > >
+2 errors generated.
+make: *** [src/1753.o] Error 1
+20:12:25 **** Build of configuration Debug for project 1759 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:25 **** Build of configuration Debug for project 1796 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:25 **** Build of configuration Debug for project 1912 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:25 **** Build of configuration Debug for project 1916 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:25 **** Build of configuration Debug for project 1963 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:25 **** Build of configuration Debug for project 1967 ****
+make all 
+Building file: ../src/1967.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/1967.d" -MT"src/1967.o" -o "src/1967.o" "../src/1967.cpp"
+../src/1967.cpp:55:20: error: no member named 'push' in 'std::__1::vector<int, std::__1::allocator<int> >'
+        inp[cnt++].push
+        ~~~~~~~~~~ ^
+1 error generated.
+make: *** [src/1967.o] Error 1
+20:12:26 **** Build of configuration Debug for project 1987 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:26 **** Build of configuration Debug for project 2003 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:26 **** Build of configuration Debug for project 2011 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:26 **** Build of configuration Debug for project 2042 ****
+make all 
+Building file: ../src/2042.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2042.d" -MT"src/2042.o" -o "src/2042.o" "../src/2042.cpp"
+../src/2042.cpp:52:17: warning: format specifies type 'int' but the argument has type 'value_type' (aka 'long long') [-Wformat]
+                printf("%d ", tree[i]);
+                        ~~    ^~~~~~~
+                        %lld
+../src/2042.cpp:67:35: warning: format specifies type 'int' but the argument has type 'long long' [-Wformat]
+            printf("diff : %d\n", diff);
+                           ~~     ^~~~
+                           %lld
+../src/2042.cpp:77:18: warning: format specifies type 'int' but the argument has type 'value_type' (aka 'long long') [-Wformat]
+                        printf("%d ", tree[i]);
+                                ~~    ^~~~~~~
+                                %lld
+../src/2042.cpp:57:11: warning: unused variable 't2' [-Wunused-variable]
+                int t1, t2, t3;
+                        ^
+../src/2042.cpp:57:15: warning: unused variable 't3' [-Wunused-variable]
+                int t1, t2, t3;
+                            ^
+5 warnings generated.
+Finished building: ../src/2042.cpp
+ 
+Building target: 2042
+Invoking: MacOS X C++ Linker
+g++  -o "2042"  ./src/2042.o   
+Finished building target: 2042
+ 
+20:12:27 **** Build of configuration Debug for project 2089 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:27 **** Build of configuration Debug for project 2098 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:27 **** Build of configuration Debug for project 2143 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:27 **** Build of configuration Debug for project 2146 ****
+make all 
+Building file: ../src/2146.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2146.d" -MT"src/2146.o" -o "src/2146.o" "../src/2146.cpp"
+../src/2146.cpp:62:25: error: a space is required between consecutive right angle brackets (use '> >')
+    vector<pair<int, int>> land;
+                        ^~
+                        > >
+../src/2146.cpp:72:13: warning: range-based for loop is a C++11 extension [-Wc++11-extensions]
+    for(P x : land){
+            ^
+../src/2146.cpp:84:16: warning: range-based for loop is a C++11 extension [-Wc++11-extensions]
+    for(Info a : load){
+               ^
+2 warnings and 1 error generated.
+make: *** [src/2146.o] Error 1
+20:12:27 **** Build of configuration Debug for project 2156 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:28 **** Build of configuration Debug for project 2186 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:28 **** Build of configuration Debug for project 2193 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:28 **** Build of configuration Debug for project 2225 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:28 **** Build of configuration Debug for project 2228 ****
+make all 
+Building file: ../src/2228.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2228.d" -MT"src/2228.o" -o "src/2228.o" "../src/2228.cpp"
+Finished building: ../src/2228.cpp
+ 
+Building target: 2228
+Invoking: MacOS X C++ Linker
+g++  -o "2228"  ./src/2228.o   
+Finished building target: 2228
+ 
+20:12:28 **** Build of configuration Debug for project 2240 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:28 **** Build of configuration Debug for project 2251 ****
+make all 
+Building file: ../src/2251.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2251.d" -MT"src/2251.o" -o "src/2251.o" "../src/2251.cpp"
+../src/2251.cpp:22:17: error: expected '(' for function-style cast or type construction
+    qu.push(Nums{0,0,limit[2]});
+            ~~~~^
+1 error generated.
+make: *** [src/2251.o] Error 1
+20:12:29 **** Build of configuration Debug for project 2252 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:29 **** Build of configuration Debug for project 2293 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:29 **** Incremental Build of configuration Debug for project 2294 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:29 **** Build of configuration Debug for project 2331 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:29 **** Build of configuration Debug for project 2410 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:29 **** Build of configuration Debug for project 2579 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:30 **** Build of configuration Debug for project 2580 ****
+make all 
+Building file: ../src/2580.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2580.d" -MT"src/2580.o" -o "src/2580.o" "../src/2580.cpp"
+../src/2580.cpp:43:2: error: use of undeclared identifier 'com'
+        com.set();
+        ^
+../src/2580.cpp:51:15: error: use of undeclared identifier 'com'
+                bit = bit & com;
+                            ^
+2 errors generated.
+make: *** [src/2580.o] Error 1
+20:12:30 **** Build of configuration Debug for project 2609 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:30 **** Build of configuration Debug for project 2630 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:30 **** Build of configuration Debug for project 2632 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:30 **** Build of configuration Debug for project 2667 ****
+make all 
+Building file: ../src/2667.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2667.d" -MT"src/2667.o" -o "src/2667.o" "../src/2667.cpp"
+../src/2667.cpp:12:23: error: a space is required between consecutive right angle brackets (use '> >')
+    queue<pair<int,int>> q;
+                      ^~
+                      > >
+1 error generated.
+make: *** [src/2667.o] Error 1
+20:12:31 **** Build of configuration Debug for project 2745 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:31 **** Build of configuration Debug for project 2867 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:31 **** Build of configuration Debug for project 2875 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:31 **** Build of configuration Debug for project 3015 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:31 **** Build of configuration Debug for project 3111 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:31 **** Build of configuration Debug for project 3986 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:31 **** Build of configuration Debug for project 4195 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:32 **** Build of configuration Debug for project 4963 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:32 **** Build of configuration Debug for project 5014 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:32 **** Build of configuration Debug for project 5427 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:32 **** Build of configuration Debug for project 5582 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:32 **** Build of configuration Debug for project 6549 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:32 **** Build of configuration Debug for project 6588 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:32 **** Build of configuration Debug for project 7785 ****
+make all 
+Building file: ../src/7785.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/7785.d" -MT"src/7785.o" -o "src/7785.o" "../src/7785.cpp"
+../src/7785.cpp:36:9: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for(auto s : arr)
+        ^
+../src/7785.cpp:36:16: warning: range-based for loop is a C++11 extension [-Wc++11-extensions]
+    for(auto s : arr)
+               ^
+In file included from ../src/7785.cpp:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/set:389:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tree:1553:17: error: type 'value_compare' (aka 'std::__1::basic_string<char>') does not provide a call operator
+            if (value_comp()(__v, __nd->__value_))
+                ^~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tree:1851:36: note: in instantiation of function template specialization 'std::__1::__tree<std::__1::basic_string<char>, std::__1::basic_string<char>, std::__1::allocator<std::__1::basic_string<char> > >::__find_equal<std::__1::basic_string<char> >' requested here
+    __node_base_pointer& __child = __find_equal(__parent, __v);
+                                   ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/set:599:25: note: in instantiation of member function 'std::__1::__tree<std::__1::basic_string<char>, std::__1::basic_string<char>, std::__1::allocator<std::__1::basic_string<char> > >::__insert_unique' requested here
+        {return __tree_.__insert_unique(__v);}
+                        ^
+../src/7785.cpp:20:15: note: in instantiation of member function 'std::__1::set<std::__1::basic_string<char>, std::__1::basic_string<char>, std::__1::allocator<std::__1::basic_string<char> > >::insert' requested here
+            s.insert(name);
+              ^
+In file included from ../src/7785.cpp:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/set:389:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tree:2013:26: error: type 'value_compare' (aka 'std::__1::basic_string<char>') does not provide a call operator
+    if (__p != end() && !value_comp()(__v, *__p))
+                         ^~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/set:651:68: note: in instantiation of function template specialization 'std::__1::__tree<std::__1::basic_string<char>, std::__1::basic_string<char>, std::__1::allocator<std::__1::basic_string<char> > >::find<std::__1::basic_string<char> >' requested here
+    iterator find(const key_type& __k)             {return __tree_.find(__k);}
+                                                                   ^
+../src/7785.cpp:22:23: note: in instantiation of member function 'std::__1::set<std::__1::basic_string<char>, std::__1::basic_string<char>, std::__1::allocator<std::__1::basic_string<char> > >::find' requested here
+            s.erase(s.find(name));
+                      ^
+In file included from ../src/7785.cpp:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/set:389:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tree:2085:14: error: type 'value_compare' (aka 'std::__1::basic_string<char>') does not provide a call operator
+        if (!value_comp()(__root->__value_, __v))
+             ^~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tree:2012:20: note: in instantiation of function template specialization 'std::__1::__tree<std::__1::basic_string<char>, std::__1::basic_string<char>, std::__1::allocator<std::__1::basic_string<char> > >::__lower_bound<std::__1::basic_string<char> >' requested here
+    iterator __p = __lower_bound(__v, __root(), __end_node());
+                   ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/set:651:68: note: in instantiation of function template specialization 'std::__1::__tree<std::__1::basic_string<char>, std::__1::basic_string<char>, std::__1::allocator<std::__1::basic_string<char> > >::find<std::__1::basic_string<char> >' requested here
+    iterator find(const key_type& __k)             {return __tree_.find(__k);}
+                                                                   ^
+../src/7785.cpp:22:23: note: in instantiation of member function 'std::__1::set<std::__1::basic_string<char>, std::__1::basic_string<char>, std::__1::allocator<std::__1::basic_string<char> > >::find' requested here
+            s.erase(s.find(name));
+                      ^
+2 warnings and 3 errors generated.
+make: *** [src/7785.o] Error 1
+20:12:33 **** Build of configuration Debug for project 9012 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:33 **** Build of configuration Debug for project 9019 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:33 **** Build of configuration Debug for project 9095 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:33 **** Build of configuration Debug for project 9244 ****
+make all 
+Building file: ../src/9244.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/9244.d" -MT"src/9244.o" -o "src/9244.o" "../src/9244.cpp"
+../src/9244.cpp:47:29: error: a space is required between consecutive right angle brackets (use '> >')
+map<int, priority_queue<Info>> arr;
+                            ^~
+                            > >
+../src/9244.cpp:58:9: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for(auto a : lines){
+        ^
+../src/9244.cpp:58:16: warning: range-based for loop is a C++11 extension [-Wc++11-extensions]
+    for(auto a : lines){
+               ^
+2 warnings and 1 error generated.
+make: *** [src/9244.o] Error 1
+20:12:33 **** Build of configuration Debug for project 9465 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:34 **** Build of configuration Debug for project BellmanFord ****
+make all 
+Building target: BellmanFord
+Invoking: MacOS X C++ Linker
+g++  -o "BellmanFord"  ./src/BellmanFord.o   
+final section layout:
+    __TEXT/__text addr=0x100001310, size=0x00001ACB, fileOffset=0x00001310, type=1
+    __TEXT/__stubs addr=0x100002DDC, size=0x00000042, fileOffset=0x00002DDC, type=28
+    __TEXT/__stub_helper addr=0x100002E20, size=0x0000006A, fileOffset=0x00002E20, type=32
+    __TEXT/__gcc_except_tab addr=0x100002E8C, size=0x00000080, fileOffset=0x00002E8C, type=0
+    __TEXT/__cstring addr=0x100002F0C, size=0x0000000E, fileOffset=0x00002F0C, type=13
+    __TEXT/__unwind_info addr=0x100002F1C, size=0x00000084, fileOffset=0x00002F1C, type=22
+    __TEXT/__eh_frame addr=0x100002FA0, size=0x00000058, fileOffset=0x00002FA0, type=19
+    __DATA/__got addr=0x100003000, size=0x00000008, fileOffset=0x00003000, type=29
+    __DATA/__nl_symbol_ptr addr=0x100003008, size=0x00000010, fileOffset=0x00003008, type=29
+    __DATA/__la_symbol_ptr addr=0x100003018, size=0x00000058, fileOffset=0x00003018, type=27
+    __DATA/__mod_init_func addr=0x100003070, size=0x00000008, fileOffset=0x00003070, type=33
+    __DATA/__data addr=0x100003078, size=0x00000004, fileOffset=0x00003078, type=0
+    __DATA/__common addr=0x100003080, size=0x00000010, fileOffset=0x00000000, type=25
+    __DATA/__huge addr=0x100003090, size=0x4A81F69234, fileOffset=0x00000000, type=25
+ld: 32-bit RIP relative reference out of range (160006406928 max is +/-4GB): from __Z8findNodeii (0x100001340) to _cost (0x26412018C0) in '__Z8findNodeii' from ./src/BellmanFord.o for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [BellmanFord] Error 1
+20:12:34 **** Build of configuration Debug for project BitMaskPractice ****
+make all 
+make: Nothing to be done for `all'.
+20:12:34 **** Build of configuration Debug for project Ctest ****
+make all 
+make: Nothing to be done for `all'.
+20:12:34 **** Build of configuration Debug for project DevidePell ****
+make all 
+make: Nothing to be done for `all'.
+20:12:34 **** Build of configuration Debug for project DevidePell2 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:34 **** Build of configuration Debug for project Dijke ****
+make all 
+make: Nothing to be done for `all'.
+20:12:34 **** Build of configuration Debug for project MergeSort ****
+make all 
+make: Nothing to be done for `all'.
+20:12:34 **** Build of configuration Debug for project NBP2 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:35 **** Build of configuration Debug for project NBP3 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:35 **** Build of configuration Debug for project Nexon2 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:35 **** Build of configuration Debug for project Nexon3 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:35 **** Build of configuration Debug for project Nexon4 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:35 **** Build of configuration Debug for project Nexon5 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:35 **** Build of configuration Debug for project Pell ****
+make all 
+make: Nothing to be done for `all'.
+20:12:35 **** Build of configuration Debug for project PracticeDijkstra ****
+make all 
+make: Nothing to be done for `all'.
+20:12:35 **** Build of configuration Debug for project PracticeGraph ****
+make all 
+make: Nothing to be done for `all'.
+20:12:36 **** Build of configuration Debug for project PracticeHeap ****
+make all 
+make: Nothing to be done for `all'.
+20:12:36 **** Build of configuration Debug for project PracticeMap ****
+make all 
+make: Nothing to be done for `all'.
+20:12:36 **** Build of configuration Debug for project PracticeRecur1 ****
+make all 
+Building file: ../src/PracticeRecur1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PracticeRecur1.d" -MT"src/PracticeRecur1.o" -o "src/PracticeRecur1.o" "../src/PracticeRecur1.cpp"
+../src/PracticeRecur1.cpp:47:4: error: no matching function for call to 'findResult'
+                        findResult(i, 1);
+                        ^~~~~~~~~~
+../src/PracticeRecur1.cpp:22:6: note: candidate function not viable: requires 3 arguments, but 2 were provided
+void findResult(int index, int cnt, string ss){
+     ^
+1 error generated.
+make: *** [src/PracticeRecur1.o] Error 1
+20:12:37 **** Build of configuration Debug for project PracticeTree ****
+make all 
+make: Nothing to be done for `all'.
+20:12:37 **** Build of configuration Debug for project QuickSort ****
+make all 
+make: Nothing to be done for `all'.
+20:12:37 **** Build of configuration Debug for project SelectionSort ****
+make all 
+make: Nothing to be done for `all'.
+20:12:37 **** Build of configuration Debug for project TransferTo2 ****
+make all 
+Building file: ../src/TransferTo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TransferTo2.d" -MT"src/TransferTo2.o" -o "src/TransferTo2.o" "../src/TransferTo2.cpp"
+../src/TransferTo2.cpp:65:25: error: a space is required between consecutive right angle brackets (use '> >')
+    vector<pair<int, int>> land;
+                        ^~
+                        > >
+../src/TransferTo2.cpp:75:13: warning: range-based for loop is a C++11 extension [-Wc++11-extensions]
+    for(P x : land){
+            ^
+../src/TransferTo2.cpp:90:80: warning: comparison between NULL and non-pointer ('P' (aka 'pair<int, int>') and NULL) [-Wnull-arithmetic]
+                if (arr[next_row][next_col] == 0 && check2[next_row][next_col] == NULL) {
+                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~
+../src/TransferTo2.cpp:90:80: error: invalid operands to binary expression ('P' (aka 'pair<int, int>') and 'long')
+                if (arr[next_row][next_col] == 0 && check2[next_row][next_col] == NULL) {
+                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~
+../src/TransferTo2.cpp:92:21: error: use of undeclared identifier 'qu'
+                    qu.push(make_pair(next_row, next_col));
+                    ^
+2 warnings and 3 errors generated.
+make: *** [src/TransferTo2.o] Error 1
+20:12:50 **** Incremental Build of configuration Debug for project 2228 ****
+make all 
+Building file: ../src/2228.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2228.d" -MT"src/2228.o" -o "src/2228.o" "../src/2228.cpp"
+Finished building: ../src/2228.cpp
+ 
+Building target: 2228
+Invoking: MacOS X C++ Linker
+g++  -o "2228"  ./src/2228.o   
+Finished building target: 2228
+ 

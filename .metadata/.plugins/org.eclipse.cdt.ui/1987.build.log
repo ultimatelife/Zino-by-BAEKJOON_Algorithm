@@ -1,6 +1,6 @@
-12:25:47 **** Build of configuration Debug for project 1987 ****
+20:12:26 **** Build of configuration Debug for project 1987 ****
 make all 
 make: Nothing to be done for `all'.
 
-12:25:47 Build Finished (took 71ms)
+20:12:26 Build Finished (took 96ms)
 

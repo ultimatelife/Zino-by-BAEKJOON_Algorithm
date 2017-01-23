@@ -1,4 +1,4 @@
-12:25:58 **** Build of configuration Debug for project PracticeRecur1 ****
+20:12:36 **** Build of configuration Debug for project PracticeRecur1 ****
 make all 
 Building file: ../src/PracticeRecur1.cpp
 Invoking: GCC C++ Compiler
@@ -12,5 +12,5 @@ void findResult(int index, int cnt, string ss){
 1 error generated.
 make: *** [src/PracticeRecur1.o] Error 1
 
-12:25:58 Build Finished (took 405ms)
+20:12:37 Build Finished (took 900ms)
 

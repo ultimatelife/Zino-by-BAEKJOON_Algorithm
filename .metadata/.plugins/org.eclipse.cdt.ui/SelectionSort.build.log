@@ -1,6 +1,6 @@
-12:25:58 **** Build of configuration Debug for project SelectionSort ****
+20:12:37 **** Build of configuration Debug for project SelectionSort ****
 make all 
 make: Nothing to be done for `all'.
 
-12:25:58 Build Finished (took 113ms)
+20:12:37 Build Finished (took 79ms)
 

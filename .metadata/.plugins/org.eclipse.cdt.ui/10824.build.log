@@ -1,4 +1,4 @@
-12:25:38 **** Build of configuration Debug for project 10824 ****
+20:12:17 **** Build of configuration Debug for project 10824 ****
 make all 
 Building file: ../src/10824.cpp
 Invoking: GCC C++ Compiler
@@ -24,5 +24,5 @@ string* moreLong(string s1, string s1){
 2 warnings and 3 errors generated.
 make: *** [src/10824.o] Error 1
 
-12:25:39 Build Finished (took 508ms)
+20:12:18 Build Finished (took 694ms)
 

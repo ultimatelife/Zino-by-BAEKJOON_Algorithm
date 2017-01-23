@@ -1,6 +1,15 @@
-12:25:49 **** Build of configuration Debug for project 2228 ****
+20:12:50 **** Incremental Build of configuration Debug for project 2228 ****
 make all 
-make: Nothing to be done for `all'.
+Building file: ../src/2228.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2228.d" -MT"src/2228.o" -o "src/2228.o" "../src/2228.cpp"
+Finished building: ../src/2228.cpp
+ 
+Building target: 2228
+Invoking: MacOS X C++ Linker
+g++  -o "2228"  ./src/2228.o   
+Finished building target: 2228
+ 
 
-12:25:49 Build Finished (took 80ms)
+20:12:50 Build Finished (took 225ms)
 

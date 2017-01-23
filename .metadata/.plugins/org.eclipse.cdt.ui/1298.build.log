@@ -1,4 +1,4 @@
-12:25:42 **** Build of configuration Debug for project 1298 ****
+20:12:21 **** Build of configuration Debug for project 1298 ****
 make all 
 Building file: ../src/1298.cpp
 Invoking: GCC C++ Compiler
@@ -26,5 +26,5 @@ vector<priority_queue<pair<int,int>>> arr;
 4 errors generated.
 make: *** [src/1298.o] Error 1
 
-12:25:43 Build Finished (took 587ms)
+20:12:22 Build Finished (took 428ms)
 

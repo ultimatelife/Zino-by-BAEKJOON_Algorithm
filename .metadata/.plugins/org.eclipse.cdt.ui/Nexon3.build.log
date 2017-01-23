@@ -1,6 +1,6 @@
-12:25:57 **** Build of configuration Debug for project Nexon3 ****
+20:12:35 **** Build of configuration Debug for project Nexon3 ****
 make all 
 make: Nothing to be done for `all'.
 
-12:25:57 Build Finished (took 115ms)
+20:12:35 Build Finished (took 93ms)
 

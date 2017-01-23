@@ -1,25 +1,20 @@
-12:25:54 **** Build of configuration Debug for project 9244 ****
+20:12:33 **** Build of configuration Debug for project 9244 ****
 make all 
 Building file: ../src/9244.cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/9244.d" -MT"src/9244.o" -o "src/9244.o" "../src/9244.cpp"
-../src/9244.cpp:23:16: error: member function 'getDistance' not viable: 'this' argument has type 'const Info', but function is not marked const
-        return getDistance(x1, y1, x2, y2) > getDistance(in.x1, in.y1, in.x2, in.y2);
-               ^~~~~~~~~~~
-../src/9244.cpp:26:17: note: 'getDistance' declared here
-    const float getDistance(float x1, float y1, float x2, float y2){
-                ^
-../src/9244.cpp:23:46: error: member function 'getDistance' not viable: 'this' argument has type 'const Info', but function is not marked const
-        return getDistance(x1, y1, x2, y2) > getDistance(in.x1, in.y1, in.x2, in.y2);
-                                             ^~~~~~~~~~~
-../src/9244.cpp:26:17: note: 'getDistance' declared here
-    const float getDistance(float x1, float y1, float x2, float y2){
-                ^
-../src/9244.cpp:40:13: error: use of undeclared identifier 'result'
-    cout << result << endl;
-            ^
-3 errors generated.
+../src/9244.cpp:47:29: error: a space is required between consecutive right angle brackets (use '> >')
+map<int, priority_queue<Info>> arr;
+                            ^~
+                            > >
+../src/9244.cpp:58:9: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for(auto a : lines){
+        ^
+../src/9244.cpp:58:16: warning: range-based for loop is a C++11 extension [-Wc++11-extensions]
+    for(auto a : lines){
+               ^
+2 warnings and 1 error generated.
 make: *** [src/9244.o] Error 1
 
-12:25:55 Build Finished (took 667ms)
+20:12:33 Build Finished (took 482ms)
 

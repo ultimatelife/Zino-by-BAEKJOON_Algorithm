@@ -1,4 +1,4 @@
-12:25:36 **** Build of configuration Debug for project 1037 ****
+20:12:15 **** Build of configuration Debug for project 1037 ****
 make all 
 Building target: 1037
 Invoking: MacOS X C++ Linker
@@ -10,5 +10,5 @@ ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make: *** [1037] Error 1
 
-12:25:38 Build Finished (took 1s.788ms)
+20:12:17 Build Finished (took 1s.723ms)
 

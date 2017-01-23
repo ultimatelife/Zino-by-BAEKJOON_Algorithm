@@ -1,4 +1,4 @@
-13:03:28 **** Incremental Build of configuration Debug for project 2042 ****
+20:12:26 **** Build of configuration Debug for project 2042 ****
 make all 
 Building file: ../src/2042.cpp
 Invoking: GCC C++ Compiler
@@ -30,5 +30,5 @@ g++  -o "2042"  ./src/2042.o
 Finished building target: 2042
  
 
-13:03:28 Build Finished (took 392ms)
+20:12:27 Build Finished (took 549ms)
 

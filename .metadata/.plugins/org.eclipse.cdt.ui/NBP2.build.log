@@ -1,6 +1,6 @@
-12:25:56 **** Build of configuration Debug for project NBP2 ****
+20:12:34 **** Build of configuration Debug for project NBP2 ****
 make all 
 make: Nothing to be done for `all'.
 
-12:25:56 Build Finished (took 70ms)
+20:12:35 Build Finished (took 84ms)
 

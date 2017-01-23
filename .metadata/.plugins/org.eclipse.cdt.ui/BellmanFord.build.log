@@ -1,4 +1,4 @@
-12:25:55 **** Build of configuration Debug for project BellmanFord ****
+20:12:34 **** Build of configuration Debug for project BellmanFord ****
 make all 
 Building target: BellmanFord
 Invoking: MacOS X C++ Linker
@@ -22,5 +22,5 @@ ld: 32-bit RIP relative reference out of range (160006406928 max is +/-4GB): fro
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make: *** [BellmanFord] Error 1
 
-12:25:55 Build Finished (took 123ms)
+20:12:34 Build Finished (took 175ms)
 
